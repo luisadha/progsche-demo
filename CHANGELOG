@@ -1,0 +1,37 @@
+15 Oct 2021 [108] Last change
+1. Big change of text in --about . option
+2. Changed the unknown option input error message.
+3. Big changes to the text in the --help option to make it easier to read.
+4. Added 'gnu --help' and others among the options.
+5. Increase the maximum string length increased to 9 from 6.
+6. Changes to the comments in the script
+7. Release on github
+
+05, Oct 2021 [107]
+1. Added the 4th parameter to be filled as a string and displayed it the maximum length of the string is 6
+2. Make the 4th parameter condition if it is not filled the default value is displayed.
+3. Minor Bug fix
+4. Make Busybox unneeded
+5. Changing the text from the default values
+
+23 Sep 2019 [105]
+1. Create an error message if the -c option is not entered in the Char/String value
+2. Also creates an error message if the -c option forgets to enter an Integer value after the Character value
+3. Create an error message if the argument $3 is not a numeric value
+4. Make the script run without options.
+
+25 Aug 2019 [104]
+1. Changing the -e to -c option in the script
+2. Support for busybox, busybox is required in skip.
+3. Bug fix
+
+03 Jan 2019 [102]
+1. Make the script licensed.
+2. Create the --about option.
+3. Color the animation
+
+31 Dec 2018 [101]
+1. Make option -e or --edit
+2. Create hidden options
+3. Create version options
+4. Initial release but not yet published anywhere
