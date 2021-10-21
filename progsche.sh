@@ -8,7 +8,7 @@
 # Progsche are other progress bar in bash.
 #//Progsche adalah Progres bar yang lain di bash.
 # Created by <adharudin14@gmail.com>
-# Copyright © 2018-2021 Luis Adha
+# Copyright Â© 2018-2021 Luis Adha
 # Need su to be able to run better.
 #//Membutuhkan su agar berjalan dengan baik.
 ### Licenses #####################################
