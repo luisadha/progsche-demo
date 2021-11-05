@@ -1,31 +1,68 @@
-Progsche is a common but very unique progress bar.
-Initially inspired by the DHCP progress bar on their computer.
-Aim for entertainment on your desk, a good start to start your hard work :-)
+NAME
+progsche - cool progressbar
 
-This script is coming for Android built with shell code, my device supports mksh from MirBSD so I don't know if it works or not for others. Just try it! if it works I'm very grateful.
+SYNOPSIS
 
-Here are the self-test notes:
-1. Testing the Android Terminal Emulator platform
-Using ./ Works
-Using sh Works (mksh is the same, that versions MIRBSD KSH R43 2013/02/19)
-Using bash Work but very fast animations running (bash4.3 that I see)
-Using ash Doesn't Work
+progsche help
 
-2. Termux Android platform testing
-Untried
+# list available option
+progsche.sh --help
 
-3. Testing the GNU/Linux Terminal platform
-Untried
+# run this script  independently
+progsche.sh
 
-4. Testing other platforms.
-Untried
+# customize the text yourself while the animation is running and set when the animation should stop
+progsche.sh --custom  $ 100
 
+# customize your own goodbye text when it's time for animation to stop, it loads a string data type with a maximum limit of 9 strings
+progsche.sh --custom $ 100 The Quick Brown Fox Jumped Over The Lazy Dogs. 
 
-WRITER,
-Luis Adha (Adha)
+# display version number
+progsche.sh --version
 
-REPORT BUGS,
-adharudin14@gmail.com
+# display about this script 
+progsche.sh --about
 
-GITHUB
-https://github.com/luisadha
+DESCRIPTION
+null
+
+INSTALLATION
+There is no installation trough Recovery mode, just put or push independently.
+Just download the file in the latest-Release and open the file manager and move it to your favorite folder. If you do it on the system do your own custom don't forget to set the permission to executetable for it to work.
+
+USAGE
+After all the above processes are done, open your Terminal or Termux:
+Type "su" without the quotes then Enter.
+
+Short way
+1. NON-PATH Location, path: /sdcard (!! Match where the script file is located!!)
+Type "cd /sdcard" without the quotes then Enter.
+Then type "./progsche.sh" without the quotes then Enter.
+
+2. PATH Location.
+Type "progsche.sh" without the quotes then Enter.
+
+DEPENDENCIES
+./
+su
+mksh
+
+FEATURE
+There are 3 features.
+
+- Colorfull animations
+> Many colors on animation
+- Customization is your way
+> Create your own how the progress bar should display the output and set the stop time as well. Mandatory :-P
+- Say Goodbye Outputs
+> Can now modify the final appearance if time has run out. Option
+
+BUG REPORTING
+
+Plese use github issues: http://github.com/luisadha/progsche/
+
+AUTHOR
+
+Luis Adha <adharudin14@gmail.com>
+
+LICENSE
