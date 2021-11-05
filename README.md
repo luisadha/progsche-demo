@@ -35,7 +35,6 @@ Just download the file in the latest-Release and open the file manager and move 
 # USAGE
 After all the above processes are done, open your Terminal or Termux:
 Type "su" without the quotes then Enter.
-
 Short way
 1. NON-PATH Location, path: /sdcard (!! Match where the script file is located!!)
 Type "cd /sdcard" without the quotes then Enter.
@@ -46,7 +45,9 @@ Type "progsche.sh" without the quotes then Enter.
 
 # DEPENDENCIES
 ./
+
 su
+
 mksh
 
 # FEATURE
@@ -63,6 +64,6 @@ There are 3 features.
 
 Plese use github issues: http://github.com/luisadha/progsche/
 
-AUTHOR
+# AUTHOR
 
 Luis Adha <adharudin14@gmail.com>
