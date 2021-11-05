@@ -35,7 +35,7 @@ L='\e[1;38;5;228m'  > /dev/null 2>&1; #LIME
 HB='\e[1;38;5;32m'  > /dev/null 2>&1; #HOLO BLUE 
 D='\e[0m'           > /dev/null 2>&1; #Default
 ### ARRAY #####################################
-VERSI_ARRAY=( '1.0.8' 'V1.8.0:PROGSCHE' '108' );
+VERSI_ARRAY=( '1.0.8' 'V1.0.8:PROGSCHE' '108' );
 NAME_ARRAY=( "progsche" "Progsche" "PROGSCHE" "$0" `busybox basename "$0"` );
 RELEASED="Mon, Dec 31";
 UPDATED="Fri, Oct 15";
