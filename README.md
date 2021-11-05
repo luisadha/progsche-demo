@@ -37,11 +37,14 @@ After all the above processes are done, open your Terminal or Termux:
 Type "su" without the quotes then Enter.
 Short way
 1. NON-PATH Location, path: /sdcard (!! Match where the script file is located!!)
-Type "cd /sdcard" without the quotes then Enter.
-Then type "./progsche.sh" without the quotes then Enter.
+
+    Type `cd /sdcard` then Enter.
+        
+    Type again `./progsche.sh` then Enter.
 
 2. PATH Location.
-Type "progsche.sh" without the quotes then Enter.
+
+    Type `progsche.sh` then Enter.
 
 # DEPENDENCIES
 ./
