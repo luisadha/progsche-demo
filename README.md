@@ -24,7 +24,7 @@ progsche - cool progressbar
     progsche.sh --about
 
 # DESCRIPTION
-Progsche is a progress bar one of the other options you should try to collect on your computer/smartphone although it's not a program that can monitor tasks from commands like cp, mv, dd, tar and others, kinds progress - coreutils.
+Progsche is a progress bar one of the other options you should try to collect on your computer/smartphone although it's not a program that can monitor tasks from commands like cp, mv, dd, tar and others, kind of progress - coreutils.
 
 just a demo program to show general animation bar but improved for entertainment purpose on your desk. Progsche was created as a whimsical project inspired by the DHCP progress bar.
 
