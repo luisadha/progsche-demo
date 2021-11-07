@@ -1,5 +1,5 @@
 #!/system/bin/sh
-#$0
+# $0
 #location /preferdir/thisscript
 #for execute you can use this
 # cd /preferdir
