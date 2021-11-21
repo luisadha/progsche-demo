@@ -1,10 +1,17 @@
-15 Oct 2021 [108] Last change
+What's new?
+15 Nov 2021 [109]
+1. Changes - Recreate the display of options on ' -h' to make it easier to read.
+2. Changes script descriptlon.
+2. Improve Now can insert residual argument with string without limitation.
+3. Added Added 1 new option which is '-H' which means more help.
+
+15 Oct 2021 [108]
 1. Big change of text in --about . option
 2. Changed the unknown option input error message.
 3. Big changes to the text in the --help option to make it easier to read.
 4. Added 'gnu --help' and others among the options.
 5. Increase the maximum string length increased to 9 from 6.
-6. Changes to the comments in the script
+6. Changes to the comments in the script.
 7. Release on github
 
 05, Oct 2021 [107]
