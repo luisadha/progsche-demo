@@ -2,6 +2,9 @@
 
 progsche - cool progressbar
 
+![preview gif]
+(https://github.com/luisadha/progsche/blob/e7272eb969aa40c27e61e84e2aee22dc7b1b8aff/progress-bar_preview.mp4)
+
 # SYNOPSIS
     progsche help
     
