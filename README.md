@@ -46,15 +46,17 @@ Install via termux
 > mksh progsche.sh --help'
 
 # USAGE legacy
-After all the above processes are done, open your Terminal Emulator by jackpal:
+See Raw content "https://raw.githubusercontent.com/luisadha/progsche/main/progsche.sh" and tap Download icon at your browser, then open your Terminal Emulator by jackpal:
 Type "su" without the quotes then Enter. And
 
 Short way
-1. NON-PATH Location, path: /sdcard (!! Match where the script file is located!!)
+1. NON-PATH Location, path: /sdcard/downloads (!! Match where the script file is located!!)
 
     Type `cd /sdcard` then Enter.
+    
+    Type `cd downloads` then enter.
         
-    Type again `sh progsche.sh` then Enter.
+    Type `sh progsche.sh` then Enter.
 
 2. PATH Location.
 
