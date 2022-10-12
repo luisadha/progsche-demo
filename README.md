@@ -45,15 +45,16 @@ Install via termux
 
 > mksh progsche.sh --help'
 
-# GUNAKAN JALAN LAIN
-After all the above processes are done, open your Terminal or Termux:
-Type "su" without the quotes then Enter.
+# USAGE legacy
+After all the above processes are done, open your Terminal Emulator by jackpal:
+Type "su" without the quotes then Enter. And
+
 Short way
 1. NON-PATH Location, path: /sdcard (!! Match where the script file is located!!)
 
     Type `cd /sdcard` then Enter.
         
-    Type again `./progsche.sh` then Enter.
+    Type again `sh progsche.sh` then Enter.
 
 2. PATH Location.
 
