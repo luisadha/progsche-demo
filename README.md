@@ -1,9 +1,8 @@
 # NAME
 
 progsche - cool progressbar
-![https://github.com/luisadha/progsche/blob/94c817dcb484e1dc182c13e8e18490e7036a6123/image.png]
 
-![preview](./progress-bar_preview.mp4)
+![preview](./image.png)
 
 # SYNOPSIS
     progsche help
