@@ -30,11 +30,22 @@ Progsche is a progress bar one of the other options you should try to collect on
 
 just a demo program to show general animation bar but improved for entertainment purpose on your desk. Progsche was created as a whimsical project inspired by the DHCP progress bar.
 
-# INSTALLATION
-There is no installation trough Recovery mode, just put or push independently.
-Just download the file in the latest-Release and open the file manager and move it to your favorite folder. If you do it on the system do your own custom don't forget to set the permission to executetable for it to work.
+# INSTALLATION & USAGE
+Install via termux 
 
-# USAGE
+> pkg install mksh
+
+> pkg install git
+
+> cd ~
+
+> git clone https://github.com/luisadha/progsche.git
+
+> cd progsche
+
+> mksh progsche.sh --help'
+
+# GUNAKAN JALAN LAIN
 After all the above processes are done, open your Terminal or Termux:
 Type "su" without the quotes then Enter.
 Short way
@@ -49,9 +60,8 @@ Short way
     Type `progsche.sh` then Enter.
 
 # DEPENDENCIES
-./
 
-su
+su (non termux)
 
 mksh
 
