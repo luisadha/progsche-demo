@@ -30,6 +30,17 @@ Progsche is a progress bar one of the other options you should try to collect on
 
 just a demo program to show general animation bar but improved for entertainment purpose on your desk. Progsche was created as a whimsical project inspired by the DHCP progress bar.
 
+# FEATURE
+There are 3 features.
+
+- Colorfull animations
+> Many colors on animation
+- Customization is your way
+> Create your own how the progress bar should display the output and set the stop time as well. Mandatory :-P
+- Say Goodbye Outputs
+> Can now modify the final appearance if time has run out. Option
+
+
 # INSTALLATION & USAGE
 Install via termux 
 
@@ -67,16 +78,6 @@ Short way
 su (non termux)
 
 mksh
-
-# FEATURE
-There are 3 features.
-
-- Colorfull animations
-> Many colors on animation
-- Customization is your way
-> Create your own how the progress bar should display the output and set the stop time as well. Mandatory :-P
-- Say Goodbye Outputs
-> Can now modify the final appearance if time has run out. Option
 
 # BUG REPORTING
 
