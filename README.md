@@ -54,7 +54,7 @@ Install via termux
 
 > cd progsche
 
-> mksh progsche.sh --help'
+> make install
 
 # USAGE legacy
 See Raw content "https://raw.githubusercontent.com/luisadha/progsche/main/progsche.sh" and tap Download icon at your browser, then open your Terminal Emulator by jackpal:
