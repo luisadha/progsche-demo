@@ -1,4 +1,4 @@
-TARGET = drawercli.sh
+TARGET = progsche.sh
 # Installation directories
 PREFIX ?= /usr
 BINDIR = $(PREFIX)/bin
