@@ -1,7 +1,7 @@
 TARGET = progsche.sh
 # Installation directories
 PREFIX ?= /usr
-BINDIR = $(PREFIX)/bin
+BINDIR = $(PREFIX)/bin/progsche
 
 # Rule to install the binary
 install:
