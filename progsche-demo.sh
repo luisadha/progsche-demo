@@ -212,12 +212,12 @@ kursormoves;
 strings="$4 $5 $6 $7 $8 $9 ${10} ${11} ${12}";
 
 papat=$4
- if [ $papat != $4 ]; then
+ if [ "$papat" != "$4" ]; then
         echo -ne ${G}"$title\n"${D};
           sleep 1.5; # clear;
        exit 0
  else
-echo -ne ${G}"${strings[*]}\n"${D};
+echo -ne ${G}"${strings[@]}\n"${D};
           sleep 1.5; # clear;
        exit 0
  fi
