@@ -35,8 +35,8 @@ L='\e[1;38;5;228m'  > /dev/null 2>&1; #LIME
 HB='\e[1;38;5;32m'  > /dev/null 2>&1; #HOLO BLUE 
 D='\e[0m'           > /dev/null 2>&1; #Default
 ### ARRAY #####################################
-version="1.0.10"
-VERSI_ARRAY=( '1.0.10' 'V1.0.10:PROGSCHE' '1010' );
+version="1.0.11"
+VERSI_ARRAY=( '1.0.11' 'V1.0.11:PROGSCHE' '1011' );
 NAME_ARRAY=( "progsche" "Progsche" "PROGSCHE" "$0" `busybox basename "$0"` );
 RELEASED="Mon, Dec 31";
 UPDATED="Teu, Aug 26";
@@ -108,49 +108,39 @@ titik=( '' '.' '..' '...' '....' '.....' '......' );
 
 
 function default_program() {
+    judul="$1"
+    waktuhabis="$2"
 
+    jarumjamanimsi=( '=' '/' '-' '\' '|' )
+    titik=( '.' '..' '...' )   # Contoh array titik
 
- judul="$1"
- waktuhabis=$2
+    t=0
+    kursormoves  # pastikan fungsi ini ada
 
-until false; do
-clear
-
-  t=0
-
-  kursormoves;
-
-  jarumjamanimsi=( '=' '/' '-' '\' '|' );
-
-    while [ $t -le $waktuhabis ]; do
-
-        for k in "${titik[@]}"
-              do
-          #clear;
-           
-        for j in "${jarumjamanimsi[@]}"
-              do
-        echo -ne ${Y} "\r${judul}${titik2}${Y}${j}${k}" ${D};
-          #sleep 0.2;
-      
-
-        echo -ne ${Y} "\r${judul}$k$j"
-          sleep 0.2
-
-     if [ $t -eq $2 ]; then
-        echo -ne ${G}"$title\n"${D};
-          sleep 1.5; # clear;
-       exit
-     fi
-     
-  let t++
+    if [ -z "$waktuhabis" ]; then
+        # Infinite mode
+        while true; do
+            for k in "${titik[@]}"; do
+                for j in "${jarumjamanimsi[@]}"; do
+                    echo -ne "\r${judul}${j}${k}"
+                    sleep 0.2
+                done
+            done
         done
-
+    else
+        # Mode dengan batas waktu
+        while [ $t -le $waktuhabis ]; do
+            for k in "${titik[@]}"; do
+                for j in "${jarumjamanimsi[@]}"; do
+                    echo -ne "\r${judul}${j}${k}"
+                    sleep 0.2
+                    let t++
+                done
+            done
         done
-    done
-done
+        echo -e "\nSelesai: ${judul}"
+    fi
 }
-
 
 
 
